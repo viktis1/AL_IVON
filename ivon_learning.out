@@ -1,0 +1,2 @@
+device=device(type='cpu')
+torch.get_num_threads()=1

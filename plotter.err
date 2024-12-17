@@ -1,0 +1,14 @@
+Loaded dependency [python3/3.10.13]: sqlite3/3.45.1
+Loaded dependency [python3/3.10.13]: gcc/12.3.0-binutils-2.40
+Loaded module: python3/3.10.13
+
+Loading python3/3.10.13
+  Loading requirement: sqlite3/3.45.1 gcc/12.3.0-binutils-2.40
+/zhome/a2/d/156154/deep_learning/Project/plotter.py:345: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colormap = get_cmap('cividis')
+/zhome/a2/d/156154/deep_learning/Project/plotter.py:345: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colormap = get_cmap('cividis')
+/zhome/a2/d/156154/deep_learning/Project/plotter.py:345: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colormap = get_cmap('cividis')
+/zhome/a2/d/156154/deep_learning/Project/plotter.py:345: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colormap = get_cmap('cividis')

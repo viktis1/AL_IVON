@@ -1,0 +1,73 @@
+figs/accuracy_plot_active_learningW.png
+figs/accuracy_plot_baselineW.png
+figs/accuracy_plot_ivon_learningW.png
+figs/accuracy_plot_random_ivon.png
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23381086: <plotter> in cluster <dcc> Done
+
+Job <plotter> was submitted from host <hpclogin1> by user <s203957> in cluster <dcc> at Sun Dec  8 09:50:27 2024
+Job was executed on host(s) <n-62-31-5>, in queue <hpc>, as user <s203957> in cluster <dcc> at Sun Dec  8 09:50:29 2024
+</zhome/a2/d/156154> was used as the home directory.
+</zhome/a2/d/156154/deep_learning/Project> was used as the working directory.
+Started at Sun Dec  8 09:50:29 2024
+Terminated at Sun Dec  8 09:50:35 2024
+Results reported at Sun Dec  8 09:50:35 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh 
+### -- specify queue -- 
+#BSUB -q hpc
+### -- set the job Name -- 
+#BSUB -J plotter
+### -- ask for number of cores (default: 1) -- 
+#BSUB -n 1
+### -- Specify we only want 1 host machine
+#BSUB -R "span[hosts=1]"
+### -- specify that we need 4GB of memory per core/slot -- 
+#BSUB -R "rusage[mem=3GB]"
+### -- specify that we want the job to get killed if it exceeds 5 GB per core/slot -- 
+#BSUB -M 4GB
+### -- set walltime limit: hh:mm -- 
+#BSUB -W 0:10
+### -- Specify the output and error file. %J is the job-id -- 
+### -- -o and -e mean append, -oo and -eo mean overwrite -- 
+#BSUB -oo plotter.out 
+#BSUB -eo plotter.err 
+
+module load python3/3.10.13
+source venv_1/bin/activate
+
+python plotter.py
+
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.17 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     3072.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   15 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <plotter.err> for stderr output of this job.
+

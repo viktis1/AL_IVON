@@ -1,0 +1,19 @@
+Loaded dependency [python3/3.10.13]: sqlite3/3.45.1
+Loaded dependency [python3/3.10.13]: gcc/12.3.0-binutils-2.40
+Loaded module: python3/3.10.13
+
+Loading python3/3.10.13
+  Loading requirement: sqlite3/3.45.1 gcc/12.3.0-binutils-2.40
+  0%|          | 0/300 [00:00<?, ?it/s]  0%|          | 1/300 [00:54<4:32:40, 54.72s/it]  1%|          | 2/300 [01:46<4:23:41, 53.09s/it]  1%|          | 3/300 [02:38<4:19:46, 52.48s/it]  1%|▏         | 4/300 [03:30<4:17:42, 52.24s/it]  2%|▏         | 5/300 [04:22<4:16:01, 52.07s/it]  2%|▏         | 6/300 [05:13<4:14:43, 51.98s/it]  2%|▏         | 6/300 [05:54<4:49:42, 59.12s/it]
+Traceback (most recent call last):
+  File "/zhome/a2/d/156154/deep_learning/Project/ivon_learning.py", line 59, in <module>
+    accuracies = train_model_ivon(model, train_loader, val_loader, criterion, optimizer, device, scheduler, num_epochs=num_epochs, val_interval=20, test_samples=test_samples_ivon)
+  File "/zhome/a2/d/156154/deep_learning/Project/helper_functions.py", line 134, in train_model_ivon
+    with optimizer.sampled_params(train=True):    
+  File "/appl9/python/3.10.13/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/zhome/a2/d/156154/deep_learning/Project/venv_1/lib/python3.10/site-packages/ivon/_ivon.py", line 130, in sampled_params
+    param_avg, noise = self._sample_params()
+  File "/zhome/a2/d/156154/deep_learning/Project/venv_1/lib/python3.10/site-packages/ivon/_ivon.py", line 218, in _sample_params
+    p.data = (p_avg + p_noise).view(p.shape)
+KeyboardInterrupt

@@ -1,0 +1,77 @@
+Epoch 1, Accuracy: 9.92%
+Epoch 2, Accuracy: 10.08%
+Epoch 3, Accuracy: 11.45%
+Epoch 4, Accuracy: 12.15%
+Epoch 5, Accuracy: 12.78%
+[tensor(2.5469, grad_fn=<NllLossBackward0>), tensor(2.3974, grad_fn=<NllLossBackward0>), tensor(2.4711, grad_fn=<NllLossBackward0>), tensor(2.3719, grad_fn=<NllLossBackward0>), tensor(2.3398, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 10.43%
+Epoch 2, Accuracy: 12.33%
+Epoch 3, Accuracy: 20.08%
+Epoch 4, Accuracy: 31.22%
+Epoch 5, Accuracy: 40.27%
+[tensor(2.2654, grad_fn=<NllLossBackward0>), tensor(2.0592, grad_fn=<NllLossBackward0>), tensor(1.7819, grad_fn=<NllLossBackward0>), tensor(1.5202, grad_fn=<NllLossBackward0>), tensor(1.4053, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 29.65%
+Epoch 2, Accuracy: 52.05%
+Epoch 3, Accuracy: 68.77%
+Epoch 4, Accuracy: 78.47%
+Epoch 5, Accuracy: 82.68%
+[tensor(1.3662, grad_fn=<NllLossBackward0>), tensor(0.5111, grad_fn=<NllLossBackward0>), tensor(0.1651, grad_fn=<NllLossBackward0>), tensor(0.0784, grad_fn=<NllLossBackward0>), tensor(0.0464, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 61.55%
+Epoch 2, Accuracy: 78.27%
+Epoch 3, Accuracy: 81.28%
+Epoch 4, Accuracy: 79.52%
+Epoch 5, Accuracy: 81.52%
+[tensor(0.5798, grad_fn=<NllLossBackward0>), tensor(0.1417, grad_fn=<NllLossBackward0>), tensor(0.0406, grad_fn=<NllLossBackward0>), tensor(0.0294, grad_fn=<NllLossBackward0>), tensor(0.0105, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 11.10%
+Epoch 2, Accuracy: 18.87%
+Epoch 3, Accuracy: 19.18%
+Epoch 4, Accuracy: 14.90%
+Epoch 5, Accuracy: 52.73%
+[tensor(1.6806, grad_fn=<NllLossBackward0>), tensor(0.4869, grad_fn=<NllLossBackward0>), tensor(0.3811, grad_fn=<NllLossBackward0>), tensor(0.3436, grad_fn=<NllLossBackward0>), tensor(0.2611, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 10.28%
+Epoch 2, Accuracy: 10.45%
+Epoch 3, Accuracy: 10.35%
+Epoch 4, Accuracy: 10.30%
+Epoch 5, Accuracy: 10.22%
+[tensor(6.6507, grad_fn=<NllLossBackward0>), tensor(2.2200, grad_fn=<NllLossBackward0>), tensor(2.3190, grad_fn=<NllLossBackward0>), tensor(2.1891, grad_fn=<NllLossBackward0>), tensor(2.2528, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 9.97%
+Epoch 2, Accuracy: 10.32%
+Epoch 3, Accuracy: 10.28%
+Epoch 4, Accuracy: 12.45%
+Epoch 5, Accuracy: 10.35%
+[tensor(121.5865, grad_fn=<NllLossBackward0>), tensor(21.2309, grad_fn=<NllLossBackward0>), tensor(4.5340, grad_fn=<NllLossBackward0>), tensor(12.5126, grad_fn=<NllLossBackward0>), tensor(85.3950, grad_fn=<NllLossBackward0>)]
+Epoch 1, Accuracy: 9.32%
+Epoch 2, Accuracy: 7.61%
+Epoch 3, Accuracy: 8.98%
+Epoch 4, Accuracy: 9.77%
+Epoch 5, Accuracy: 10.34%
+Epoch 1, Accuracy: 9.89%
+Epoch 2, Accuracy: 10.57%
+Epoch 3, Accuracy: 11.14%
+Epoch 4, Accuracy: 10.11%
+Epoch 5, Accuracy: 5.68%
+Epoch 1, Accuracy: 9.43%
+Epoch 2, Accuracy: 10.57%
+Epoch 3, Accuracy: 7.61%
+Epoch 4, Accuracy: 6.70%
+Epoch 5, Accuracy: 10.80%
+Epoch 1, Accuracy: 11.48%
+Epoch 2, Accuracy: 10.68%
+Epoch 3, Accuracy: 9.77%
+Epoch 4, Accuracy: 7.84%
+Epoch 5, Accuracy: 9.66%
+Epoch 1, Accuracy: 10.57%
+Epoch 2, Accuracy: 9.09%
+Epoch 3, Accuracy: 12.84%
+Epoch 4, Accuracy: 6.25%
+Epoch 5, Accuracy: 10.11%
+Epoch 1, Accuracy: 10.00%
+Epoch 2, Accuracy: 11.14%
+Epoch 3, Accuracy: 8.41%
+Epoch 4, Accuracy: 8.98%
+Epoch 5, Accuracy: 9.20%
+Epoch 1, Accuracy: 11.02%
+Epoch 2, Accuracy: 10.68%
+Epoch 3, Accuracy: 8.86%
+Epoch 4, Accuracy: 11.25%
+Epoch 5, Accuracy: 8.86%
