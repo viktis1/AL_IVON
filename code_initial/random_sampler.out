@@ -1,0 +1,21 @@
+Epoch 100, Accuracy: 91.03%
+Epoch 200, Accuracy: 91.18%
+Epoch 300, Accuracy: 91.30%
+Epoch 100, Accuracy: 94.97%
+Epoch 200, Accuracy: 95.03%
+Epoch 300, Accuracy: 95.23%
+Epoch 100, Accuracy: 93.10%
+Epoch 200, Accuracy: 93.47%
+Epoch 300, Accuracy: 93.58%
+Adding 53 images to training set
+Epoch 100, Accuracy: 95.30%
+Epoch 200, Accuracy: 95.13%
+Epoch 300, Accuracy: 95.18%
+Epoch 100, Accuracy: 88.68%
+Epoch 200, Accuracy: 86.03%
+Epoch 300, Accuracy: 92.08%
+Adding 53 images to training set
+Epoch 100, Accuracy: 90.97%
+Epoch 200, Accuracy: 93.22%
+Epoch 300, Accuracy: 92.48%
+Done
